@@ -15,7 +15,8 @@ public class TrabajoEnf {
 
     public static void main(String[] args) {
 
-        try (Scanner entrada = new Scanner(System.in)) { // El "try" lo añade solo VsCode por si hay excepciones, no le hagas caso
+        try (Scanner entrada = new Scanner(System.in)) { // El "try" lo añade solo VsCode por si hay excepciones, no le
+                                                         // hagas caso
             // Primero creo un Array para almacenar los 10 valores que piden
             int[] numeros = new int[10];
             // Con este bucle recorro el array y le asigno los valores que se introduzcan
@@ -45,7 +46,7 @@ public class TrabajoEnf {
     }
 
     /////////////////
-    //   MÉTODOS    //
+    // MÉTODOS //
     ////////////////
 
     public static void cualesPares(int[] numeros) {
